@@ -1,6 +1,7 @@
 # React-static
 tmp/
 dist/
+scripts/rsdemo.ncftp
 
 # Logs
 logs
