@@ -14,9 +14,16 @@
 #   modify the source and destination paths below
 #   ./scripts/deployweb.sh
 
-SOURCE='./dist/*'  # Directory holding production website
+SOURCE='./dist/*' # Directory holding production website
 DESTINATION='/'   # Upload directory on ftp account
 
 yarn build
 echo FTP upload...
 ncftpput -R -f scripts/rsdemo.ncftp $DESTINATION $SOURCE
+
+exit 0  # Remove this line to enable the following
+# Deploy via SAFE Drive to an existing SAFE Network public name (website)
+SAFE_DESTINATION='~/SAFE/_public/rsdemo/root-www/'
+read -p "Mount SAFE Drive and press ENTER to sync...  "
+echo Syncing via SAFE Drive...
+rsync -av --delete $SOURCE/ $SAFE_SAFE_DESTINATION
