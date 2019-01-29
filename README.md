@@ -2,8 +2,6 @@
 
 A simple blog that can be deployed to the 'clearweb' or SAFE Network web.
 
-WORK IN PROGESS!
-
 ## Create A React-Static Blog
 
 ### Development
@@ -26,16 +24,31 @@ yarn serve # at http://localhost:3000
 
 ## Deploy Your Website
 
-Build for production:
+Build for production (output in `./dist`):
 
 ```
 yarn build
 ```
-#### TODOs
+Upload the contents of `./dist` to your website's root HTML directory on the web or SAFE Network.
+
+### Automated Deployment to Web
+
+To automate build and upload by ftp, see the bash script `./script/deployweb.sh`
+
+### Automated Deployment to SAFE Network
+
+If you are using SAFE Drive you can upload the website on SAFE Network with `rscync` as follows.
+
+- Start SAFE Drive and connect to SAFE Network so that your SAFE Drive is mounted at `~/SAFE`
+
+- Execute the following command, substituting the destination path of your website storage on SAFE Network. Note the trailing '/' on both source and destination paths.
+
 ```
-   [ ] TODO how to deploy to web (js script)
-   [ ] TODO how to deploy to SAFE Network (bash script)
+   rsync -av --delete ./dist/ ~/SAFE/_public/rsdemo/www-root/
 ```
+This can of course be used inside `deployweb.sh` or a similar script.
+
+NOTE: using `rsync -av` is probablyre-uploading more files than necessary when you make changes because SAFE Drive does not preserve all file attributes. So you may like to experiment with more selective `rsync` options (i.e. ignoring some file attributes) and let us know what works best.
 
 ## Website Content
 
