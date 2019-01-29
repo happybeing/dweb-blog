@@ -2,6 +2,7 @@
 tmp/
 dist/
 scripts/rsdemo.ncftp
+scripts/deploy.sh
 
 # Logs
 logs
