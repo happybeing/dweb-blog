@@ -1,14 +1,34 @@
-# React-Static Blog Demo
+# DWeb Blog - a website that lives on the Web and DWeb, about both
 
-A simple blog that can be deployed to the 'clearweb' or SAFE Network web.
+A blazing fast blog/website that can be deployed to both the Web and DWeb (decentralised web). Posts and content are created in markdown, everything is supercharged by [React-static](https://github.com/nozzle/react-static), and automatically uploaded to the Web *and* to SAFE Network with a single command.
 
-## Create A React-Static Blog
+This a fork of [rs-blog-demo](https://github.com/theWebalyst/rs-blog-demo) (shh, don't tell github), a playground for learning about React-static, and a live example of building blazing fast websites on web *and* DWeb (SAFE Network).
+
+Workflow:
+
+1. Create and edit markdown files under `./content`
+ - Run `./scripts/deployweb.sh`
+ - It's live!
+    * Web:  http://dweb.happyeing
+    * DWeb: [safe://dweb](safe://dweb) (Requires SAFE Browser, get it from [safenetwork.tech](https://safenetwork.tech)).
+
+## Quick Start
 
 ### Development
 
+React-static uses `yarn` so if you don't have it, install without `npm` from [yarnpkg.com](https://yarnpkg.com) or using `npm` with:
 ```
-git clone https://github.com/theWebalyst/rs-blog-demo && \
-cd rs-blog-demo && \
+$ npm install -g yarn
+```
+
+Install React-static:
+```
+$ yarn global add react-static
+```
+Get DWeb and run the development server.
+```
+git clone https://github.com/theWebalyst/dweb-blog && \
+cd dweb-blog && \
 yarn  && \
 yarn start
 ```
@@ -22,7 +42,7 @@ yarn stage
 yarn serve # at http://localhost:3000
 ```
 
-## Deploy Your Website
+## Deploy Website
 
 Build for production (output in `./dist`):
 
@@ -56,8 +76,11 @@ Create content as markdown files under `/content`. Later content will be derived
 
 ## Origin
 
-This repo was created from the React Static v6 basic template, then modified to take home, about and blog content from /content from markdown files based on [old-examples-markdown](https://github.com/nozzle/react-static/tree/master/archives/old-examples/markdown). See also [rs-basic-test](https://github.com/theWebalyst/rs-basic-test/tree/take-content-from-markdown-files) for the early code.
+Fork of [rs-blog-demo](https://github.com/theWebalyst/rs-blog-demo).
 
 ## LICENSE
 
-GPL3.0
+- Website content is Copyright (C) Mark Hughes 2019. All Rights Reserved. 
+- Everything else is GPL3.0
+
+'Content' includes everything under `./content` and `./public`.
