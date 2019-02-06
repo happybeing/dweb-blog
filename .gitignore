@@ -1,6 +1,7 @@
 # React-static
 tmp/
 dist/
+dist-upload/
 scripts/rsdemo.ncftp
 scripts/deploy.sh
 
