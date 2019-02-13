@@ -1,8 +1,19 @@
-# DWeb Blog - a website that lives on the Web and DWeb, about both
+# DWeb Blog - how to deploy a Website to Web and Decentralised Web
 
-A blazing fast blog/website that can be deployed to both the Web and DWeb (decentralised web). Posts and content are created in markdown, everything is supercharged by [React-static](https://github.com/nozzle/react-static), and automatically uploaded to the Web *and* to SAFE Network with a single command.
+DWeb Blog is a blazing fast website that is deployed to both the Web and DWeb (decentralised web) in a single command, and shows you how to do the same.
 
-This a fork of [rs-blog-demo](https://github.com/theWebalyst/rs-blog-demo) (shh, don't tell github), a playground for learning about React-static, and a live example of building blazing fast websites on web *and* DWeb (SAFE Network).
+It supports combines the advanced features from [ReactJs](http://reactjs.org/) for design, and development, including hot reloading, with static optimisation and just-in-time preloading of [React-static](https://github.com/nozzle/react-static).
+
+DWeb's purpose is to show you how to do everything it does, and to provide a live tutorial for website development by documenting its evolution from capable demo and starting point for a pro website, to fully fledged CMS.
+
+With help, this project can be developed into a full featured Wordpress style CMS, combining the interoperability and analytical capabilities of Solid with the security, privacy and freedom of SAFE Network, and bridge the transition from the increasingly centralised web, to the a more robust user oriented decentralised web.
+
+## Current Status
+
+DWeb already works so you can visit it live on web and SAFE Network (see below) as well as use it as the basis for your own website.
+Posts and content are created in markdown, and automatically uploaded to the Web *and* to SAFE Network with a single command.
+
+Code and content versioning and backup are easily maintained under git. My intention is to build on this base to work with local headless CMS or cloud CMS, and other data types such as RDFa (Linked Data).
 
 Workflow:
 
@@ -11,6 +22,10 @@ Workflow:
  - It's live!
     * Web:  http://dweb.happyeing
     * DWeb: [safe://dweb](safe://dweb) (Requires SAFE Browser, get it from [safenetwork.tech](https://safenetwork.tech)).
+
+If you build on DWeb Blog yourself, you can help build the future by submitting your enhancements in the form of pull requests via [github/dweb-blog](https://github.com/theWebalyst/dweb-blog) (owned by Microsoft) or `safe://dweb.dgit` via [SAFE Drive/safegit](https://github.com/theWebalyst/safe-drive) (owned by us). The latter is still in alpha, so for the time being both will be kept in sync.
+
+DWeb is itself a fork of [rs-blog-demo](https://github.com/theWebalyst/rs-blog-demo) (shh, don't tell github), my playground for learning about React-static, and a live example of building blazing fast websites on web *and* DWeb (SAFE Network). Some enhancements to DWeb will no doubt make it back into rs-blog-demo, which will remain a cleaner more basic starting point, but likely some way behind DWeb Blog. So for now best to fork DWeb Blog and start here.
 
 ## Quick Start
 
@@ -80,7 +95,7 @@ Fork of [rs-blog-demo](https://github.com/theWebalyst/rs-blog-demo).
 
 ## LICENSE
 
-- Website content is Copyright (C) Mark Hughes 2019. All Rights Reserved. 
+- Website content is Copyright (C) Mark Hughes 2019. All Rights Reserved.
 - Everything else is GPL3.0
 
 'Content' includes everything under `./content` and `./public`.
