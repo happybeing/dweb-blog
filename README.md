@@ -1,16 +1,16 @@
-# DWeb Blog - how to deploy a Website to Web and Decentralised Web
+# dWeb Blog - a Website for both Web and Decentralised Web
 
-DWeb Blog is a blazing fast website that is deployed to both the Web and DWeb (decentralised web) in a single command, and shows you how to do the same.
+dWeb Blog is a blazing fast website that you can deploy to both the Web and decenralised Web (dWeb) in a single command. The code is open source (GPL3), so everything here is free to use and build on.
 
-It supports combines the advanced features from [ReactJs](http://reactjs.org/) for design, and development, including hot reloading, with static optimisation and just-in-time preloading of [React-static](https://github.com/nozzle/react-static).
+dWeb combines the advanced features from [ReactJs](http://reactjs.org/) for website design and development, with [React-static](https://github.com/nozzle/react-static)'s blazing fast, optimised website with just-in-time preloading.
 
-DWeb's purpose is to show you how to do everything it does, and to provide a live tutorial for website development by documenting its evolution from capable demo and starting point for a pro website, to fully fledged CMS.
+This website's purpose is to show you how to do everything it does, and to provide a live tutorial for website development by documenting its evolution from capable demo and starting point for a pro website, to fully fledged CMS. Along the way it will also show other things I'm working on, such as SAFE Drive, decentralised Git, and of course Solid.
 
-With help, this project can be developed into a full featured Wordpress style CMS, combining the interoperability and analytical capabilities of Solid with the security, privacy and freedom of SAFE Network, and bridge the transition from the increasingly centralised web, to the a more robust user oriented decentralised web.
+With some help, this project can be developed into a full featured Wordpress style CMS, combining the interoperability and analytical capabilities of Solid with the security, privacy and freedom of SAFE Network, and bridge the transition from the increasingly centralised web, to the a more robust user oriented decentralised web.
 
 ## Current Status
 
-DWeb already works so you can visit it live on web and SAFE Network (see below) as well as use it as the basis for your own website.
+dWeb already works so you can visit it live on web and SAFE Network (see below) as well as use it as the basis for your own website.
 Posts and content are created in markdown, and automatically uploaded to the Web *and* to SAFE Network with a single command.
 
 Code and content versioning and backup are easily maintained under git. My intention is to build on this base to work with local headless CMS or cloud CMS, and other data types such as RDFa (Linked Data).
@@ -20,12 +20,12 @@ Workflow:
 1. Create and edit markdown files under `./content`
  - Run `./scripts/deployweb.sh`
  - It's live!
-    * Web:  http://dweb.happyeing
-    * DWeb: [safe://dweb](safe://dweb) (Requires SAFE Browser, get it from [safenetwork.tech](https://safenetwork.tech)).
+    * Web:  http://dweb.happybeing
+    * dWeb: [safe://dweb](safe://dweb) (Requires SAFE Browser, get it from [safenetwork.tech](https://safenetwork.tech)).
 
-If you build on DWeb Blog yourself, you can help build the future by submitting your enhancements in the form of pull requests via [github/dweb-blog](https://github.com/theWebalyst/dweb-blog) (owned by Microsoft) or `safe://dweb.dgit` via [SAFE Drive/safegit](https://github.com/theWebalyst/safe-drive) (owned by us). The latter is still in alpha, so for the time being both will be kept in sync.
+If you build on dWeb Blog yourself, you can help build the future by submitting your enhancements in the form of pull requests via [github/dweb-blog](https://github.com/theWebalyst/dweb-blog) (owned by Microsoft) or `safe://dweb.dgit` via [SAFE Drive/safegit](https://github.com/theWebalyst/safe-drive) (owned by us). The latter is still in alpha, so for the time being both will be kept in sync.
 
-DWeb is itself a fork of [rs-blog-demo](https://github.com/theWebalyst/rs-blog-demo) (shh, don't tell github), my playground for learning about React-static, and a live example of building blazing fast websites on web *and* DWeb (SAFE Network). Some enhancements to DWeb will no doubt make it back into rs-blog-demo, which will remain a cleaner more basic starting point, but likely some way behind DWeb Blog. So for now best to fork DWeb Blog and start here.
+dWeb is itself a fork of [rs-blog-demo](https://github.com/theWebalyst/rs-blog-demo) (shh, don't tell github), my playground for learning about React-static, and a live example of building blazing fast websites on web *and* dWeb (SAFE Network). Some enhancements to dWeb will no doubt make it back into rs-blog-demo, which will remain a cleaner more basic starting point, but likely some way behind dWeb Blog. So for now best to fork dWeb Blog and start here.
 
 ## Quick Start
 
@@ -40,7 +40,7 @@ Install React-static:
 ```
 $ yarn global add react-static
 ```
-Get DWeb and run the development server.
+Get dWeb and run the development server.
 ```
 git clone https://github.com/theWebalyst/dweb-blog && \
 cd dweb-blog && \
@@ -72,18 +72,16 @@ To automate build and upload by ftp, see the bash script `./script/deployweb.sh`
 
 ### Automated Deployment to SAFE Network
 
-If you are using SAFE Drive you can upload the website on SAFE Network with `rscync` as follows.
+You can upload the contents of your website from `./dist` to SAFE Network using a suitable application such as the Maidsafe Web Hosting Manager, or if you are using [SAFE Drive](https://github.com/theWebalyst/safe-drive), on Linux you can upload the website on SAFE Network as follows.
 
 - Start SAFE Drive and connect to SAFE Network so that your SAFE Drive is mounted at `~/SAFE`
 
 - Execute the following command, substituting the destination path of your website storage on SAFE Network. Note the trailing '/' on both source and destination paths.
 
 ```
-   rsync -av --delete ./dist/ ~/SAFE/_public/rsdemo/www-root/
+   cp -ruv ./dist/ ~/SAFE/_public/dweb/www-root/
 ```
-This can of course be used inside `deployweb.sh` or a similar script.
-
-NOTE: using `rsync -av` is probablyre-uploading more files than necessary when you make changes because SAFE Drive does not preserve all file attributes. So you may like to experiment with more selective `rsync` options (i.e. ignoring some file attributes) and let us know what works best.
+There's script to automate this (`scripts/deployweb.sh`) which you can customise to upload both to web and SAFE in one command.
 
 ## Website Content
 

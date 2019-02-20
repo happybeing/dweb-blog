@@ -8,8 +8,8 @@
 #
 # From the root directory of this project:
 #   chmod +x scripts/deployweb.sh
-#   copy scripts/ncftp.config to scripts/rsdemo.ncftp
-#   edit scripts/rsdemo.ncftp with ftp host and account login
+#   copy scripts/ncftp.config to scripts/dweb.ncftp
+#   edit scripts/dweb.ncftp with ftp host and account login
 #   chmod 600 scripts/ # to protect credentials
 #   modify the source and destination paths below
 #   ./scripts/deployweb.sh
@@ -21,7 +21,7 @@ FTP_DIR='/'   # Upload directory on ftp account
 
 yarn build
 echo FTP upload...
-# ncftpput -R -f scripts/rsdemo.ncftp $FTP_DIR $SOURCE/*
+ncftpput -R -f scripts/dweb.ncftp $FTP_DIR $SOURCE/*
 
 #exit 0  # Remove this line to enable deploy to SAFE Network
 # Deploy via SAFE Drive to an existing SAFE Network public name (website)

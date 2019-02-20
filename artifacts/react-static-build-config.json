@@ -1,0 +1,99 @@
+{
+  "entry": "/home/mrh/src/safe-react/dweb-blog/src/index.js",
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "paths": {
+    "ROOT": "/home/mrh/src/safe-react/dweb-blog",
+    "LOCAL_NODE_MODULES": "/home/mrh/src/safe-react/dweb-blog/node_modules/react-static/node_modules",
+    "SRC": "/home/mrh/src/safe-react/dweb-blog/src",
+    "PAGES": "/home/mrh/src/safe-react/dweb-blog/src/pages",
+    "DIST": "/home/mrh/src/safe-react/dweb-blog/dist",
+    "ASSETS": "/home/mrh/src/safe-react/dweb-blog/dist",
+    "PLUGINS": "/home/mrh/src/safe-react/dweb-blog/plugins",
+    "TEMP": "/home/mrh/src/safe-react/dweb-blog/tmp",
+    "BUILD_ARTIFACTS": "/home/mrh/src/safe-react/dweb-blog/artifacts",
+    "PUBLIC": "/home/mrh/src/safe-react/dweb-blog/public",
+    "NODE_MODULES": "/home/mrh/src/safe-react/dweb-blog/node_modules",
+    "EXCLUDE_MODULES": "/home/mrh/src/safe-react/dweb-blog/node_modules",
+    "PACKAGE": "/home/mrh/src/safe-react/dweb-blog/package.json",
+    "HTML_TEMPLATE": "/home/mrh/src/safe-react/dweb-blog/dist/index.html",
+    "STATIC_DATA": "/home/mrh/src/safe-react/dweb-blog/dist/staticData"
+  },
+  "plugins": [
+    {
+      "location": "/home/mrh/src/safe-react/dweb-blog",
+      "options": {},
+      "hooks": {}
+    }
+  ],
+  "babelExcludes": [],
+  "siteRoot": "",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "routes": [
+    {
+      "path": "404",
+      "component": "src/pages/404.js",
+      "isPage": true,
+      "originalPath": "404",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/404.js"
+    },
+    {
+      "path": "about",
+      "component": "src/pages/about.js",
+      "isPage": true,
+      "originalPath": "about",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/pages/about.js"
+    },
+    {
+      "path": "blog",
+      "component": "src/pages/blog.js",
+      "isPage": true,
+      "originalPath": "blog",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/pages/blog.js"
+    },
+    {
+      "path": "blog/post/001-how-to-set-up-your-own-dweb-site.md",
+      "component": "src/containers/Post",
+      "originalPath": "post/001-how-to-set-up-your-own-dweb-site.md",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "/",
+      "component": "src/pages/index.js",
+      "isPage": true,
+      "originalPath": "/",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/pages/index.js"
+    }
+  ],
+  "templates": [
+    "../src/pages/404.js",
+    "../src/pages/about.js",
+    "../src/pages/blog.js",
+    "../src/containers/Post",
+    "../src/pages/index.js"
+  ]
+}

@@ -3,6 +3,9 @@ import jdown from 'jdown'
 import chokidar from 'chokidar'
 
 // chokidar.watch('content').on('all', () => reloadRoutes())
+// reloadRoutes()   // Ok with just this
+// nn
+// setInterval(reloadRoutes, 5 * 1000)
 
 export default {
   getSiteData: () => ({

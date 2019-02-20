@@ -4,6 +4,7 @@ dist/
 dist-upload/
 scripts/rsdemo.ncftp
 scripts/deploy.sh
+pikepics.zip
 
 # Logs
 logs
