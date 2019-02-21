@@ -4,7 +4,7 @@ import { Link } from '@reach/router'
 
 export default withRouteData(({ posts }) => (
   <div>
-    <h1>DWeb Articles</h1>
+    <h1>dWeb Articles</h1>
     <br />
     All Posts:
     <ul>

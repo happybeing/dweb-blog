@@ -1,6 +1,6 @@
 ---
 slug: 001-how-to-set-up-your-own-dweb-site
-title: How to set up your own DWeb Site
+title: How to set up your own dWeb Site
 date: 2019-02-20
 author: happybeing
 authortwitter: https://twitter.com/safepress
@@ -8,7 +8,7 @@ authortwitter: https://twitter.com/safepress
 <table border=0 >
 <tr style='vertical-align: top'>
 <td style='font-weight: bold; padding-right: 1em'>Step&nbsp;1:</td>
-<td style='padding-bottom: 1em'>Clone the DWeb Blog code into a directory named for your intended website project, using <code>git</code>. For exampe, if you are making 'the-best-blog' you would type:
+<td style='padding-bottom: 1em'>Clone the dWeb Blog code into a directory named for your intended website project, using <code>git</code>. For exampe, if you are making 'the-best-blog' you would type:
 </p>
 <code>
 &nbsp;&nbsp;&nbsp;git clone https://github.com/theWebalyst/dweb-blog the-best-blog
