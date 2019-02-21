@@ -1,4 +1,4 @@
-accept---
+---
 slug: 002-safegit-decentralised-git-on-safe-network
 title: 'safegit: Decentralised Git on SAFE Network'
 date: 2019-02-21
