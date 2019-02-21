@@ -1,4 +1,5 @@
 # React-static
+artifacts/
 tmp/
 dist/
 dist-upload/
