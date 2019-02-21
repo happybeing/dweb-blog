@@ -13,6 +13,7 @@ dWeb Blog is about:
 
 ***Solid** is the decentralisation project Tim Berners-Lee, inventor of the web.
 
+<a name='the-author'></a>
 ## The Author
 As author I'm pulling together things built by others to make something new, so I hope folk who like what dWeb Blog is about will pick it up and make their own websites and blogs based on it. If you do this, I'll be happy to hear back in ideas and code.
 

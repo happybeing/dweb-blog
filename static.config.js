@@ -13,9 +13,9 @@ export default {
   }),
   getRoutes: async () => {
     const { posts, home, about } = await jdown('content')
-    console.log('home: %o', home)
-    console.log('about: %o', about)
-    console.log('posts: %o', posts)
+    // console.log('home: %o', home)
+    // console.log('about: %o', about)
+    // console.log('posts: %o', posts)
     return [
       {
         path: '/',
