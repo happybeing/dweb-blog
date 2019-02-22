@@ -22,7 +22,7 @@ When that issue is fixed, we could push directly to SAFE Drive, but that may be 
 
 ## Set Up (Linux)
 
-- Get SAFE Drive and test it (see https://github.com/theWebalyst/safe-drive).
+- Get SAFE Drive and test it (see [https://github.com/theWebalyst/safe-drive](https://github.com/theWebalyst/safe-drive)).
 - Set up an alias so you can execute the `safegit.sh` script by typing `safegit`. For example, add the following to your `~/.bash_aliases` file:
 ```
   alias safegit='~/safe-drive/scripts/linux/safegit.sh'
