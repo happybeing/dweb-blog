@@ -51,7 +51,7 @@ cd ~/src
 git clone https://github.com/theWebalyst/dweb-blog
 ```
 
-1). Create a public name and sub name for your repo on SAFE Network (e.g. by using Maidsafe's Web Hosting Manager). For example, for a local git based project in `~/src/dweb-blog` you might create `dweb-blog.dgit` (i.e. create and publish a default website, using a Web Hosting Manager template). The content does not matter, just that you create a pubic name a sub name for use as a `git` repo.
+1). Create a public name and sub name for your repo on SAFE Network (e.g. by using Maidsafe's Web Hosting Manager). For example, for a local git based project in `~/src/dweb-blog` you might create `dweb-blog.dgit` (i.e. create and publish a default website, using a Web Hosting Manager template). The content does not matter, just that you create a public name a sub name for use as a `git` repo.
 
 Note: to follow along you'll need to use a different SAFE Network public name because the one used in this example ('dgit') is already taken, so create your own, and remember to use that wherever 'dgit' appears below.
 
