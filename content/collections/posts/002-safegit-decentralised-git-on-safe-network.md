@@ -5,6 +5,9 @@ date: 2019-02-21
 author: happybeing
 authortwitter: https://twitter.com/safepress
 ---
+<div style='text-align: center; font-weight: bold; font-size: +4em;'><img src='/images/safegit-logo-8a31ccf66202d8209de7345c105da82070b22876_2_1380x580.png' description='safegit logo' style='text-flow: left; '>safegit</img></div>
+
+
 This article explains how to create a decentralised git repository on SAFE Network, push to it, clone from it, and submit pull requests back to it. So all the normal `git` functionality is working, right now.
 
 **Pre-requisites:** [SAFE Drive](https://github.com/theWebalyst/safe-drive) which is currently only working on Linux, but Mac and Windows are not far away, and if anyone is able to help finish those please [get in touch](/about#the-author) (as I don't have those platforms).
