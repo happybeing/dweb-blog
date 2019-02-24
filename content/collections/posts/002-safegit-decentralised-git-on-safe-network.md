@@ -4,9 +4,8 @@ title: 'safegit: Decentralised Git on SAFE Network'
 date: 2019-02-21
 author: happybeing
 authortwitter: https://twitter.com/safepress
+headerhtml: "<div style='text-align: center; font-weight: bold; font-size: +4em;'><img src='/images/safegit-logo-8a31ccf66202d8209de7345c105da82070b22876_2_1380x580.png' description='safegit logo' style='text-flow: left; '>safegit</div>"
 ---
-<div style='text-align: center; font-weight: bold; font-size: +4em;'><img src='/images/safegit-logo-8a31ccf66202d8209de7345c105da82070b22876_2_1380x580.png' description='safegit logo' style='text-flow: left; '>safegit</img></div>
-
 
 This article explains how to create a decentralised git repository on SAFE Network, push to it, clone from it, and submit pull requests back to it. So all the normal `git` functionality is working, right now.
 

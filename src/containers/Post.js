@@ -16,6 +16,7 @@ export default withRouteData(({ post }) => (
     <br />
     <h1>{post.title}</h1>
     <p>by <a href={post.authortwitter}>{post.author}</a>, {dateString(post.date)}</p><hr/>
+    {convert(post.headerhtml)}
     {convert(post.contents)}
   </div>
 ))
