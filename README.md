@@ -20,7 +20,7 @@ Workflow:
 1. Create and edit markdown files under `./content`
  - Run `./scripts/deployweb.sh`
  - It's live!
-    * Web:  http://dweb.happybeing
+    * Web:  http://dweb.happybeing.com
     * dWeb: [safe://dweb](safe://dweb) (Requires SAFE Browser, get it from [safenetwork.tech](https://safenetwork.tech)).
 
 If you build on dWeb Blog yourself, you can help build the future by submitting your enhancements in the form of pull requests via [github/dweb-blog](https://github.com/theWebalyst/dweb-blog) (owned by Microsoft) or `safe://dweb.dgit` via [SAFE Drive/safegit](https://github.com/theWebalyst/safe-drive) (owned by us). The latter is still in alpha, so for the time being both will be kept in sync.

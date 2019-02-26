@@ -76,8 +76,8 @@ safegit	/home/mrh/src/safegit/dweb-blog.dgit (push)
 
 After making changes to your code you can push these to 'safegit' using normal `git` commands, in the same way you would push to 'upstream' or 'origin' etc.
 
-### Update your safegit remote repo
 <a name='update-a-safegit-repo'></a>
+### Update your safegit remote repo
 You won't need to do this for master (because `safegit.sh` takes care of that), but if you want to share other branches on your SAFE repo (e.g. to submit a pull request back to a safegit repo you cloned), you must first push them to the local safegit repo. To push a branch to your *local* safegit repo:
 ```
 git push safegit <branch>
