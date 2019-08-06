@@ -37,8 +37,8 @@ When that issue is fixed, we could push directly to SAFE Drive, but that may be 
 You can now try out the following actions described in the sections below.
 
 - [Create a local safegit repo](#create-a-safegit-repo)
-- [Update your safegit remote repo](#update-a-safegit-repo)
 - [Publish/Update a git repo to SAFE Network](#publish-a-safegit-repo)
+- [Update your safegit remote repo](#update-a-safegit-repo)
 - [Clone a git repo from SAFE Network](#clone-a-safegit-repo)
 - [Issue a Pull Request after making changes](#issue-a-pull-request)
 - [Accept a Pull Request from someone else](#accept-a-pull-request)
@@ -76,17 +76,6 @@ safegit	/home/mrh/src/safegit/dweb-blog.dgit (push)
 
 After making changes to your code you can push these to 'safegit' using normal `git` commands, in the same way you would push to 'upstream' or 'origin' etc.
 
-<a name='update-a-safegit-repo'></a>
-### Update your safegit remote repo
-You won't need to do this for master (because `safegit.sh` takes care of that), but if you want to share other branches on your SAFE repo (e.g. to submit a pull request back to a safegit repo you cloned), you must first push them to the local safegit repo. To push a branch to your *local* safegit repo:
-```
-git push safegit <branch>
-```
-You can then push everything to your SAFE remote with:
-```
-safegit push
-```
-
 <a name='publish-a-safegit-repo'></a>
 ### Publish/Update a git repo to SAFE Network
 
@@ -120,6 +109,19 @@ cleanup
 Following the example above, `~/src/safegit/dweb-blog` will now be present at `safe://dweb-blog.dgit` *and* accessible to everyone as a public read-only on their SAFE Drive at `~/SAFE/_webMounts/dweb-blog.dgit`. You can now publicise the existance of 'dweb-blog.dgit' on SAFE Network.
 
 Note: `safe://dweb-blog.dgit` is not a website like github, and can't be browsed using SAFE Browser like other SAFE URIs. It is just a copy of the contents of your local safegit repo available for cloning using git clone `~/SAFE/_webMounts/dweb-blog.dgit`
+
+<a name='update-a-safegit-repo'></a>
+### Update your safegit remote repo
+You won't need to do this for master branch (because `safegit push <repo-name>`, as above takes care of that).
+
+But if you want to share other branches on your SAFE repo (e.g. to submit a pull request back to a safegit repo you cloned), you must first push them to the local safegit repo. To push a branch to your *local* safegit repo:
+```
+git push safegit <branch>
+```
+You can then push everything to your SAFE remote with:
+```
+safegit push
+```
 
 <a name='clone-a-safegit-repo'></a>
 ### Clone a git repo from SAFE Network
