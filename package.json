@@ -11,6 +11,9 @@
   "dependencies": {
     "@reach/router": "^1.2.1",
     "axios": "^0.18.0",
+    "chokidar": "^3.0.2",
+    "htmr": "^0.8.4",
+    "jdown": "^1.0.1",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-static": "^7.0.0",
