@@ -15,7 +15,7 @@ I'll announce new posts on twitter, so you can follow along there: _Solid on SAF
 
 If you want to join in, my first post is up now and shows you how to get your own dWeb Blog running in minutes:
 
-- [How to set up your own dWeb Blog](/blog/post/001-how-to-set-up-your-own-dweb-site.md)
+- [How to set up your own dWeb Blog](/blog/post/001-how-to-set-up-your-own-dweb-site)
 
 ## Solid and SAFE Network
 <a name='solid-and-safe-network'></a>

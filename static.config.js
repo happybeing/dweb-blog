@@ -1,20 +1,44 @@
 import path from 'path'
-import axios from 'axios'
+import jdown from 'jdown'
+
+import chokidar from 'chokidar'
+
+// Note: v6 reloadRoutes is now reloadClientData
+// chokidar.watch('content').on('all', () => reloadClientData())
+// reloadClientData()   // Ok with just this
+// nn
+// setInterval(reloadClientData, 5 * 1000)
 
 export default {
+  getSiteData: () => ({
+    title: 'DWeb Blog TEST getSiteData-TITLE',
+  }),
   getRoutes: async () => {
-    const { data: posts } = await axios.get(
-      'https://jsonplaceholder.typicode.com/posts'
-    )
+    const { posts, home, about } = await jdown('content')
+    // console.log('home: %o', home)
+    // console.log('about: %o', about)
+    // console.log('posts: %o', posts)
 
     return [
+      {
+        path: '/',
+        getData: () => ({
+          ...home,
+        }),
+      },
+      {
+        path: '/about',
+        getData: () => ({
+          about,
+        }),
+      },
       {
         path: '/blog',
         getData: () => ({
           posts,
         }),
         children: posts.map(post => ({
-          path: `/post/${post.id}`,
+          path: `/post/${post.slug}`,
           template: 'src/containers/Post',
           getData: () => ({
             post,

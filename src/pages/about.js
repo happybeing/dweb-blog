@@ -1,7 +1,11 @@
 import React from 'react'
+import convert from 'htmr'
 
-export default () => (
-  <div>
-    <p>React Static is a progressive static site generator for React.</p>
-  </div>
-)
+import { useRouteData } from 'react-static'
+
+export default function About() {
+  const { about } = useRouteData()
+  return (
+  <div>{convert(about.contents)}</div>
+  )
+}
