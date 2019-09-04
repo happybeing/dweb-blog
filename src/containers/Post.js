@@ -21,6 +21,8 @@ export default function Post() {
     <p>by <a href={post.authortwitter}>{post.author}</a>, {dateString(post.date)}</p><hr/>
     {convert(post.headerhtml)}
     {convert(post.contents)}
+    <hr></hr>
+    <p><a href="/blog">Back to Articles</a></p>
   </div>
   )
 }
