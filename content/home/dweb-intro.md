@@ -22,3 +22,5 @@ If you want to join in, my first post is up now and shows you how to get your ow
 **Solid** is the decentralisation project Tim Berners-Lee, inventor of the web.
 
 **SAFE Network** is a secure, decentralised network for privacy, security and freedom.
+
+Read about: [Why Solid on SAFE?](/blog/post/004-why-solid-on-safe/)
