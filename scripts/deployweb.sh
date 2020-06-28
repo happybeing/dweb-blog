@@ -34,7 +34,7 @@ SOURCE='./dist'  # Directory holding production website
 DEPLOY_VIA_FTP='/'   # Upload directory on ftp account
 # DEPLOY_VIA_SAFE_DRIVE_DIR=~/SAFE/_public/tests/data1/dweb
 # DEPLOY_VIA_SAFE_DRIVE_DIR_MOCK=~/SAFE/_public/tests/data1/dweb
-# DEPLOY_VIA_SAFE_CLI_URI=safe://dweb
+DEPLOY_VIA_SAFE_CLI_URI=safe://dweb
 
 yarn build
 
@@ -48,7 +48,8 @@ fi
 ###################################################################
 # Deploy via SAFE CLI to an existing SAFE Network public name (website)
 if [ "$DEPLOY_VIA_SAFE_CLI_URI" != "" ]; then
-  read -p "Ensure SAFE Authenticator Daemon is running and press ENTER to sync..."
+  echo "Ensure SAFE Authenticator Daemon is running and you have authorised SAFE CLI with 'safe auth'"
+  read -p "Then press ENTER to sync..."
   echo "Syncing via SAFE CLI..."
 	safe files sync -r ./dist/ $DEPLOY_VIA_SAFE_CLI_URI -u -d
 fi
