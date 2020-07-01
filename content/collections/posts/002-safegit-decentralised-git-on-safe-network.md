@@ -17,7 +17,7 @@ as a secure immutable repository, without censorship, server downtime, or vulner
 
 It works by pushing to a local headless repository (repo) that is then published to SAFE Network using the SAFE CLI.
 
-# Setup and Workflow (SAFE Drive + safegit)
+# Setup and Workflow
 
 ## Set Up (Linux)
 
