@@ -22,6 +22,11 @@ It works by pushing to a local headless repository (repo) that is then published
 ## Set Up (Linux)
 
 - Install the [SAFE Command Line Interface (CLI)](https://github.com/maidsafe/safe-api/tree/master/safe-cli#safe-cli).
+- Get a copy of the safegit script. On Linux for example, clone the repo with:
+```
+cd ~/
+git clone https://github.com/theWebalyst/safenetwork-git
+```
 - Set up an alias so you can execute the `safegit.sh` script by typing `safegit`. For example, add the following to your `~/.bash_aliases` file:
 ```
   alias safegit='~/safenetwork-git/scripts/linux/safegit.sh'
