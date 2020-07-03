@@ -27,12 +27,11 @@ It works by pushing to a local headless repository (repo) that is then published
 cd ~/
 git clone https://github.com/theWebalyst/safenetwork-git
 ```
-- Set up an alias so you can execute the `safegit.sh` script by typing `safegit`. For example, add the following to your `~/.bash_aliases` file:
+- Set up an alias and make the script executable so you can run it by typing `safegit`. For example if you use bash on Linux:
 ```
   alias safegit='~/safenetwork-git/scripts/linux/safegit.sh'
+	chmod +x ~/safenetwork-git/scripts/linux/safegit.sh
 ```
-- Make it executable:
-	`chmod +x safegit.sh`
 - You can see `safegit` usage, including how to override the default location of your local headless repos by typing `safegit` without any parameters. Do this now to check it is set up correctly.
 
 ## Using safegit
