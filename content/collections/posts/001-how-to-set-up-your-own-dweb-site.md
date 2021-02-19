@@ -10,7 +10,7 @@ dWeb Blog is a step towards the vision of SAFEpress, a WordPress for the decentr
 
 You can create your own blindingly fast static website for _both_ Web and decentralised Web (on SAFE Network) by following the steps below.
 
-To follow the development of dWeb towards the vision of SAFEpress, follow me on twitter at [@safepress](https://twitter.com/safepress), via github as [@theWebalyst](https://github.com/theWebalyst), or on the SAFE Network [forum](https://safenetforum.org/).
+To follow the development of dWeb towards the vision of SAFEpress, follow me on twitter at [@safepress](https://twitter.com/safepress), via github as [@theWebalyst](https://github.com/happybeing), or on the SAFE Network [forum](https://safenetforum.org/).
 
 <table border=0 >
 <tr style='vertical-align: top'>
@@ -18,14 +18,14 @@ To follow the development of dWeb towards the vision of SAFEpress, follow me on 
 <td style='padding-bottom: 1em'>Clone the dWeb Blog code into a directory named for your intended website project, using <code>git</code>. For exampe, if you are making 'the-best-blog' you would type:
 </p>
 <code>
-&nbsp;&nbsp;&nbsp;git clone https://github.com/theWebalyst/dweb-blog the-best-blog
+&nbsp;&nbsp;&nbsp;git clone https://github.com/happybeing/dweb-blog the-best-blog
 </code>
 </p>
 </td></tr>
 
 <tr style='vertical-align: top'>
 <td style='font-weight: bold'>Step&nbsp;2:</td>
-<td style='padding-bottom: 1em'>Initialise your cloned project by following the instructions in <a href='https://github.com/theWebalyst/dweb-blog#quick-start'>Quick Start</a>.<br/></td></tr>
+<td style='padding-bottom: 1em'>Initialise your cloned project by following the instructions in <a href='https://github.com/happybeing/dweb-blog#quick-start'>Quick Start</a>.<br/></td></tr>
 
 <tr style='vertical-align: top'>
 <td style='font-weight: bold'>Step&nbsp;3:</td>
@@ -37,5 +37,5 @@ To follow the development of dWeb towards the vision of SAFEpress, follow me on 
 
 <tr style='vertical-align: top'>
 <td style='font-weight: bold'>Step&nbsp;5:</td>
-<td style='padding-bottom: 1em'> To publish your website, follow the instructions in <a href='https://github.com/theWebalyst/dweb-blog#deploy-website'>Deploy Website</a>, which explains how to publish to the Web and on SAFE Network dWeb.<br/></td></tr>
+<td style='padding-bottom: 1em'> To publish your website, follow the instructions in <a href='https://github.com/happybeing/dweb-blog#deploy-website'>Deploy Website</a>, which explains how to publish to the Web and on SAFE Network dWeb.<br/></td></tr>
 </table>

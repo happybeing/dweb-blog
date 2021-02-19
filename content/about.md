@@ -19,4 +19,4 @@ You can read: [Why Solid on SAFE?](/blog/post/004-why-solid-on-safe/)
 ## The Author
 As author I'm pulling together things built by others to make something new, so I hope folk who like what dWeb Blog is about will pick it up and make their own websites and blogs based on it. If you do this, I'll be happy to hear back in ideas and code.
 
-So please grab the [dWeb Blog code](https://github.com/theWebalyst/dweb-blog) from github and make it your own, and if you want to help me with any of the aims above get in touch on github ([@theWebalyst](https://github.com/theWebalyst)), SAFE forum ([@happybeing](https://safenetforum.org/u/happybeing)) or twitter ([@safepress](https://twitter.com/safepress)).
+So please grab the [dWeb Blog code](https://github.com/happybeing/dweb-blog) from github and make it your own, and if you want to help me with any of the aims above get in touch on github ([@theWebalyst](https://github.com/happybeing)), SAFE forum ([@happybeing](https://safenetforum.org/u/happybeing)) or twitter ([@safepress](https://twitter.com/safepress)).

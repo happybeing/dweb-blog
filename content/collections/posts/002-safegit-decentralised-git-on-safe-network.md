@@ -25,7 +25,7 @@ It works by pushing to a local headless repository (repo) that is then published
 - Get a copy of the safegit script. On Linux for example, clone the repo with:
 ```
 cd ~/
-git clone https://github.com/theWebalyst/safenetwork-git
+git clone https://github.com/happybeing/safenetwork-git
 ```
 - Set up an alias and make the script executable so you can run it by typing `safegit`. For example if you use bash on Linux:
 ```
@@ -56,7 +56,7 @@ In the following examples we'll assume you have a local project git repository i
 ```bash
 mkdir -p ~/src
 cd ~/src
-git clone https://github.com/theWebalyst/dweb-blog
+git clone https://github.com/happybeing/dweb-blog
 ```
 
 <a name='create-a-safegit-repo'></a>
@@ -111,8 +111,8 @@ Example:
 $ cd ~/src/dweb-blog
 $ `safegit` create dweb-blog.dgit
 $ git remote -v
-origin	https://github.com/theWebalyst/dweb-blog (fetch)
-origin	https://github.com/theWebalyst/dweb-blog (push)
+origin	https://github.com/happybeing/dweb-blog (fetch)
+origin	https://github.com/happybeing/dweb-blog (push)
 safegit	/home/mrh/src/safegit/dweb-blog.dgit (fetch)
 safegit	/home/mrh/src/safegit/dweb-blog.dgit (push)
 ```

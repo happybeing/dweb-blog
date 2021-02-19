@@ -23,9 +23,9 @@ Workflow:
     * Web:  http://dweb.happybeing.com
     * dWeb: [safe://dweb](safe://dweb) (Requires SAFE Browser, get it from [safenetwork.tech](https://safenetwork.tech)).
 
-If you build on dWeb Blog yourself, you can help build the future by submitting your enhancements in the form of pull requests via [github/dweb-blog](https://github.com/theWebalyst/dweb-blog) (owned by Microsoft) or `safe://dweb.dgit` via [SAFE Drive/safegit](https://github.com/theWebalyst/safe-drive) (owned by us). The latter is still in alpha, so for the time being both will be kept in sync.
+If you build on dWeb Blog yourself, you can help build the future by submitting your enhancements in the form of pull requests via [github/dweb-blog](https://github.com/happybeing/dweb-blog) (owned by Microsoft) or `safe://dweb.dgit` via [SAFE Drive/safegit](https://github.com/happybeing/safe-drive) (owned by us). The latter is still in alpha, so for the time being both will be kept in sync.
 
-dWeb is itself a fork of [rs-blog-demo](https://github.com/theWebalyst/rs-blog-demo) (shh, don't tell github), my playground for learning about React-static, and a live example of building blazing fast websites on web *and* dWeb (SAFE Network). Some enhancements to dWeb will no doubt make it back into rs-blog-demo, which will remain a cleaner more basic starting point, but likely some way behind dWeb Blog. So for now best to fork dWeb Blog and start here.
+dWeb is itself a fork of [rs-blog-demo](https://github.com/happybeing/rs-blog-demo) (shh, don't tell github), my playground for learning about React-static, and a live example of building blazing fast websites on web *and* dWeb (SAFE Network). Some enhancements to dWeb will no doubt make it back into rs-blog-demo, which will remain a cleaner more basic starting point, but likely some way behind dWeb Blog. So for now best to fork dWeb Blog and start here.
 
 ## Quick Start
 
@@ -42,7 +42,7 @@ $ yarn global add react-static
 ```
 Get dWeb and run the development server.
 ```
-git clone https://github.com/theWebalyst/dweb-blog && \
+git clone https://github.com/happybeing/dweb-blog && \
 cd dweb-blog && \
 yarn  && \
 yarn start
@@ -72,7 +72,7 @@ To automate build and upload by ftp, see the bash script `./script/deployweb.sh`
 
 ### Automated Deployment to SAFE Network
 
-You can upload the contents of your website from `./dist` to SAFE Network using a suitable application such as the Maidsafe Web Hosting Manager, or if you are using [SAFE Drive](https://github.com/theWebalyst/safe-drive), on Linux you can upload the website on SAFE Network as follows.
+You can upload the contents of your website from `./dist` to SAFE Network using a suitable application such as the Maidsafe Web Hosting Manager, or if you are using [SAFE Drive](https://github.com/happybeing/safe-drive), on Linux you can upload the website on SAFE Network as follows.
 
 - Start SAFE Drive and connect to SAFE Network so that your SAFE Drive is mounted at `~/SAFE`
 
@@ -89,7 +89,7 @@ Create content as markdown files under `/content`. Later content will be derived
 
 ## Origin
 
-Fork of [rs-blog-demo](https://github.com/theWebalyst/rs-blog-demo).
+Fork of [rs-blog-demo](https://github.com/happybeing/rs-blog-demo).
 
 ## LICENSE
 
