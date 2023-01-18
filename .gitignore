@@ -6,6 +6,7 @@ dist-upload/
 scripts/rsdemo.ncftp
 scripts/deploy.sh
 pikepics.zip
+static.config-testhotreloading.js
 
 # Logs
 logs
