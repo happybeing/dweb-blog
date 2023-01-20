@@ -13,7 +13,7 @@ In particular, the following technology is of interest here:
 - **Safe Network:** a secure, decentralised network for privacy, security and freedom.
 - **Solid:** a decentralisation project Tim Berners-Lee who invented the web.
 
-More on those here: [Why Solid on SAFE?](/blog/post/004-why-solid-on-safe/)
+More on those here: [Why Solid on Safe?](/blog/post/004-why-solid-on-safe/)
 
 <a name='the-author'></a>
 ## The Author

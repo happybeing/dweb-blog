@@ -4,13 +4,13 @@ title: How to set up your own dWeb Site
 date: 2019-02-20
 author: happybeing
 authormastodon: https://fosstodon.org/@happyborg
-headerhtml: "<div style='text-align: center; font-weight: bold; font-size: +4em;'><img src='/images/safepresslogo.png' description='safe network cube in sky blue, cutaway with gray quill, SAFEpress logo' style='text-flow: left; '><br/>SAFEpress</div>"
+headerhtml: "<div style='text-align: center; font-weight: bold; font-size: +4em;'><img src='/images/safepresslogo.png' description='safe network cube in sky blue, cutaway with gray quill, Safepress logo' style='text-flow: left; '><br/>Safepress</div>"
 ---
-dWeb Blog is a step towards the vision of SAFEpress, a WordPress for the decentralised web in the form of SAFE Network.
+dWeb Blog is a step towards the vision of Safepress, a WordPress for the decentralised web in the form of Safe Network.
 
-You can create your own blindingly fast static website for _both_ Web and decentralised Web (on SAFE Network) by following the steps below.
+You can create your own blindingly fast static website for _both_ Web and decentralised Web (on Safe Network) by following the steps below.
 
-To follow the development of dWeb towards the vision of SAFEpress, follow me on Mastodon at [@happyborg](https://fosstodon.org/@happyborg), via github as [@theWebalyst](https://github.com/happybeing), or on the SAFE Network [forum](https://safenetforum.org/).
+To follow the development of dWeb towards the vision of Safepress, follow me on Mastodon at [@happyborg](https://fosstodon.org/@happyborg), via github as [@theWebalyst](https://github.com/happybeing), or on the Safe Network [forum](https://safenetforum.org/).
 
 <table border=0 >
 <tr style='vertical-align: top'>
@@ -37,5 +37,5 @@ To follow the development of dWeb towards the vision of SAFEpress, follow me on 
 
 <tr style='vertical-align: top'>
 <td style='font-weight: bold'>Step&nbsp;5:</td>
-<td style='padding-bottom: 1em'> To publish your website, follow the instructions in <a href='https://github.com/happybeing/dweb-blog#deploy-website'>Deploy Website</a>, which explains how to publish to the Web and on SAFE Network dWeb.<br/></td></tr>
+<td style='padding-bottom: 1em'> To publish your website, follow the instructions in <a href='https://github.com/happybeing/dweb-blog#deploy-website'>Deploy Website</a>, which explains how to publish to the Web and on Safe Network dWeb.<br/></td></tr>
 </table>

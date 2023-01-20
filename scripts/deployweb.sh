@@ -40,7 +40,7 @@ HOST='ftp://yourwebsitedomain.com' # ftp host must start 'ftp://'
 SOURCE='./dist'  # Local directory to upload
 FTP_DIR='/public_html/dweb'   # Upload directory for $USER on $HOST
 
-SAFE_DEST='safe://dweb'  # SAFE URI destination (must exist)
+Safe_DEST='safe://dweb'  # Safe URI destination (must exist)
 
 if [ "$1" = "build" ]; then
   yarn build
@@ -53,6 +53,6 @@ if [ "$1" = "web" -o "$1" = "" ]; then
 fi
 
 if [ "$1" = "safe" -o "$1" = "" ]; then
-  echo Assuming you are logged in to SAFE. Beginning updload...
-  safe files sync -r -d -u $SOURCE $SAFE_DEST
+  echo Assuming you are logged in to Safe. Beginning updload...
+  safe files sync -r -d -u $SOURCE $Safe_DEST
 fi

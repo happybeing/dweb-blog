@@ -8,7 +8,7 @@
 #
 # This script supercedes the earlier script which
 # used ncftp and became unreliable.
-# 
+#
 # Before use:
 #   - ensure you have 'lftp' installed
 #   - customise before use as follows
@@ -36,7 +36,7 @@ HOST='' # ftp host must start 'ftp://'
 SOURCE='./dist'  # Local directory to upload
 FTP_DIR='/'   # Upload directory for $USER on $HOST
 
-SAFE_DEST=''  # SAFE URI destination (must exist)
+Safe_DEST=''  # Safe URI destination (must exist)
 
 if [ "$1" = "build" ]; then
   yarn build
@@ -49,6 +49,6 @@ if [ "$1" = "web" -o "$1" = "" ]; then
 fi
 
 if [ "$1" = "safe" -o "$1" = "" ]; then
-  echo Assuming you are logged in to SAFE. Beginning updload...
-  safe files sync -r -d -u $SOURCE $SAFE_DEST
+  echo Assuming you are logged in to Safe. Beginning updload...
+  safe files sync -r -d -u $SOURCE $Safe_DEST
 fi

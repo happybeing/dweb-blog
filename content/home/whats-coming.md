@@ -1,5 +1,5 @@
 # What's coming
-- Posts introducing React-static, Solid and SAFE Network, three technologies that provide a fast, secure internet where users own and control their data, and can communicate freely without intermediaries, data harvesting, data breaches etc.
+- Posts introducing React-static, Solid and Safe Network, three technologies that provide a fast, secure internet where users own and control their data, and can communicate freely without intermediaries, data harvesting, data breaches etc.
 - enhancement of the website's structure, styling through editing of the site's configuration, addition of components and so on, as I learn
 - posts to accompany those changes so you can incorporate features yourself
 

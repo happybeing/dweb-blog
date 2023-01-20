@@ -23,7 +23,7 @@ export default function Post() {
     {convert(post.contents)}
     <hr></hr>
     <p>
-    DWeb Blog is live on the web at <a href="https://dweb.happybeing.com">dweb.happybeing.com</a> and on SAFE Network (Fleming and alpha2) at `safe://dweb` (to view it first <a href="/#join-the-dweb">Join the DWeb</a>).
+    DWeb Blog is live on the web at <a href="https://dweb.happybeing.com">dweb.happybeing.com</a> and on Safe Network (Fleming and alpha2) at `safe://dweb` (to view it first <a href="/#join-the-dweb">Join the DWeb</a>).
     </p>
     <p><a href="/blog">Back to Articles</a></p>
   </div>
