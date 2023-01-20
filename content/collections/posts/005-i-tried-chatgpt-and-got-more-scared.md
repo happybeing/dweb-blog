@@ -3,7 +3,7 @@ slug: 005-i-tried-chatgpt-and-got-more-scared
 title: 'The Scariness of ChatGPT'
 date: 2023-01-19
 author: happybeing
-authortwitter: https://fosstodon.org/@happyborg
+authormastodon: https://fosstodon.org/@happyborg
 headerhtml: "<div style='text-align: right; font-weight: normal; font-size: 8pt; color: rgb(100, 100, 100);'>Solid on SAFE image by <a href='https://forum.safenetwork.bg/u/dimitar/'>@dimitar</a><br/></div><div style='text-align: center; font-weight: bold; font-size: +4em;'><img src='/images/solidonsafelogo.png' description='Solid logo' style='text-flow: left; '><br/>The Scariness of ChatGPT</div>"
 ---
 

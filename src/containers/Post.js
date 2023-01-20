@@ -18,7 +18,7 @@ export default function Post() {
     <Link to="/blog/">{'<'} Back</Link>
     <br />
     <h1>{post.title}</h1>
-    <p>by <a href={post.authortwitter}>{post.author}</a>, {dateString(post.date)}</p><hr/>
+    <p>by <a href={post.authormastodon}>{post.author}</a>, {dateString(post.date)}</p><hr/>
     {convert(post.headerhtml)}
     {convert(post.contents)}
     <hr></hr>

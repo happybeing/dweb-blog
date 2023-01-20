@@ -3,7 +3,7 @@ slug: 001-how-to-set-up-your-own-dweb-site
 title: How to set up your own dWeb Site
 date: 2019-02-20
 author: happybeing
-authortwitter: https://fosstodon.org/@happyborg
+authormastodon: https://fosstodon.org/@happyborg
 headerhtml: "<div style='text-align: center; font-weight: bold; font-size: +4em;'><img src='/images/safepresslogo.png' description='safe network cube in sky blue, cutaway with gray quill, SAFEpress logo' style='text-flow: left; '><br/>SAFEpress</div>"
 ---
 dWeb Blog is a step towards the vision of SAFEpress, a WordPress for the decentralised web in the form of SAFE Network.
