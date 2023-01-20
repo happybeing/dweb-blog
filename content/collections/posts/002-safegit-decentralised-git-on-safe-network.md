@@ -3,7 +3,7 @@ slug: 002-safegit-decentralised-git-on-safe-network
 title: 'safegit: Decentralised Git on SAFE Network'
 date: 2019-02-21
 author: happybeing
-authortwitter: https://twitter.com/safepress
+authortwitter: https://fosstodon.org/@happyborg
 headerhtml: "<div style='text-align: right; font-weight: normal; font-size: 8pt; color: rgb(100, 100, 100);'>safegit image by <a href='https://safenetforum.org/u/nigel'>@nigel</a><br/></div><div style='text-align: center; font-weight: bold; font-size: +4em;'><img src='/images/safegit-logo-8a31ccf66202d8209de7345c105da82070b22876_2_1380x580.png' description='safegit logo' style='text-flow: left; '></div>safegit</div>"
 ---
 

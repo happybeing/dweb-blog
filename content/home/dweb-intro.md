@@ -11,7 +11,7 @@ dWeb Blog will develop into a live showcase for key dWeb technologies including 
 
 As I learn to use the technology for dWeb Blog, I'll blog about this so you can follow along and learn how to build on the decentralised Web yourself.
 
-I'll announce new posts on twitter, so you can follow along there: _Solid on SAFE_ ([@safepress](https://twitter.com/safepress))
+I'll announce new posts on Mastodon, so you can follow along there: _Solid on SAFE_ ([@happyborg](https://fosstodon.org/@happyborg))
 
 If you want to join in, my first post is up now and shows you how to get your own dWeb Blog running in minutes:
 
