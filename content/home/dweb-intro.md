@@ -1,9 +1,9 @@
 # dWeb Blog is
 
 - about building a better web
-- publishing on the **decentralised Web**
-- is live now on Web and soon also the decentralised Web
-- is blazing fast - click around to see _how_ fast!
+- a way to publish on the **decentralised Web**
+- live now on Web and soon also the decentralised Web
+- blazing fast - click around to see _how_ fast!
 - shows you how to build on the Web, _and_ [Join the dWeb](#join-the-dweb)
 
 ## Decentralised Web Technology

@@ -15,7 +15,6 @@ export default function Home() {
     {convert(dwebIntro.contents)}
     <section>{convert(joinTheDweb.contents)}</section>
     <section>{convert(rightNowYouCan.contents)}</section>
-    <section>{convert(whatsComing.contents)}</section>
     <section>{convert(moreAboutDweb.contents)}</section>
   </div>
   )
